@@ -10,7 +10,6 @@ body p {
 
 .start {
   height: 100vh;
-  background-image: url("../img/bg.jpg");
   background-size: cover; }
   .start .star {
     display: flex;
@@ -23,12 +22,15 @@ body p {
         font-size: 45px;
         font-weight: 300;
         color: #fff;
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+        animation-duration: 2s; }
       .start .star .head-text p {
         color: #fff;
-        line-height: 1.7; }
+        line-height: 1.7;
+        animation-duration: 2s; }
     .start .star .logo {
-      padding-top: 35px; }
+      padding-top: 35px;
+      animation-duration: 2s; }
 
 .second {
   height: auto;
@@ -135,14 +137,14 @@ body p {
     font-size: 32px;
     font-weight: 300;
     color: #fff; }
-  .fourth .det_wrap4 .det4 .caption {
-    font-weight: 600;
-    margin-bottom: 20px; }
-  .fourth .det_wrap4 .det4 p {
-    color: #fff;
-    line-height: 1.7; }
-  .fourth .det_wrap4 .det4 .txt {
+  .fourth .det_wrap4 {
     padding-bottom: 100px; }
+    .fourth .det_wrap4 .det4 .caption {
+      font-weight: 600;
+      margin-bottom: 20px; }
+    .fourth .det_wrap4 .det4 p {
+      color: #fff;
+      line-height: 1.7; }
 
 .fifth {
   background-color: #f6f7fa; }
@@ -186,6 +188,8 @@ body p {
       font-weight: 600;
       width: 130px;
       margin-left: 30px; }
+    .fifth .column button:hover {
+      background-color: #6bb8d0; }
     .fifth .column ul {
       padding: 15px 30px; }
     .fifth .column li {
