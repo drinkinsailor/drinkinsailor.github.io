@@ -1,5 +1,10 @@
 $(function(){
    
+   $('.toggle-nav').click(function(e) {
+   $(this).toggleClass('active');
+   $('.menu ul').toggleClass('active');
+   e.preventDefault();
+   });
 
  $('.slider').slick({
    autoplay: true,
@@ -8,7 +13,25 @@ $(function(){
    slidesToShow: 3,
    slidesToScroll: 3,
    dots: true,
-   arrows: false
+   arrows: false,
+   responsive: [
+   {
+      breakpoint: 992,
+      settings: {
+         slidesToShow: 2,
+         slidesToScroll: 2,
+       }
+      },
+      {
+      breakpoint: 584,
+      settings: {
+         slidesToShow: 1,
+         slidesToScroll: 1,
+         dots: false,
+       }
+      }
+   ]
+
  });
 
   $('.team-slider').slick({
@@ -18,11 +41,32 @@ $(function(){
    slidesToShow: 4,
    slidesToScroll: 4,
    dots: true,
-   arrows: false
+   arrows: false,
+   responsive: [
+   {
+      breakpoint: 1310,
+      settings: {
+         slidesToShow: 3,
+         slidesToScroll: 3,
+      }
+     },
+     {
+     breakpoint: 992,
+     settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+     }
+   },
+   {
+     breakpoint: 654,
+     settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+     }
+   }
+   ]
  });
-
-
-
 
  $(".works li").click(function(){
       $(".works li").removeClass("active");
@@ -33,5 +77,5 @@ $(function(){
 
  var mixer = mixitup(containerEl);
 
-
+$(".menu ul a").mPageScroll2id();
 });﻿
