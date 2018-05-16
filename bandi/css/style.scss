@@ -421,7 +421,6 @@ body {
     .team-slide {
       img {
         height: 250px;
-        padding: 0 15px;
       }
       h2 {
         font-weight: 700;
@@ -439,10 +438,11 @@ body {
       }
       .team-photo {
         position: relative;
+    
         .team_cont {
           position: absolute;
           top: 0;
-          width: 100%;
+          width: 225px;
           height: 100%;
           background-color: rgba(34,183,152,.9);
           text-align: center;
@@ -462,7 +462,7 @@ body {
           padding: 0px 30px;
           font-weight: 400;
           line-height: 1.6;
-          margin-bottom: 50px;
+          margin-bottom: 30px;
           }
         ul{
           li {
