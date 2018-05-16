@@ -158,7 +158,7 @@
     justify-content: center;
   }
   #contacts .container .row .cont_links .contact-links li{
-    padding-left: 28px;
+    padding: 0 14px;
   }
   .footer .container .foot .subscribe h2{
     padding-top: 15px;
