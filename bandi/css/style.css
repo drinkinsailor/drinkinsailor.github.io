@@ -143,7 +143,7 @@ body p {
 
 #features {
   background-color: #f4f7f9;
-  padding-top: 70px; }
+  padding-top: 50px; }
   #features h1 {
     text-align: center;
     text-transform: uppercase;
@@ -194,7 +194,7 @@ body p {
           line-height: 1.6; }
 
 #works {
-  padding-top: 70px; }
+  padding-top: 50px; }
   #works h1 {
     text-align: center;
     text-transform: uppercase;
@@ -283,7 +283,7 @@ body p {
     opacity: 1; }
 
 #team {
-  padding-top: 70px; }
+  padding-top: 50px; }
   #team h1 {
     text-align: center;
     text-transform: uppercase;
@@ -381,7 +381,7 @@ body p {
       color: #0eb493; }
 
 .facts {
-  padding-top: 70px;
+  padding-top: 50px;
   background-image: url("../img/bg_facts.jpg"); }
   .facts h1 {
     text-align: center;
@@ -436,7 +436,7 @@ body p {
       margin-bottom: 90px; }
 
 #contacts {
-  padding-top: 70px; }
+  padding-top: 50px; }
   #contacts h1 {
     text-align: center;
     text-transform: uppercase;
@@ -570,7 +570,7 @@ body p {
     background-color: #1ea78d;
     border: none;
     color: #74c8b8;
-    font-size: 22px;
+    font-size: 20px;
     outline: 0; }
   .footer .footer-column .footer-list li {
     color: #c3e8e1;
