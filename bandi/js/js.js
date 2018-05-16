@@ -68,9 +68,9 @@ $(function(){
    ]
  });
 
- $(".works li").click(function(){
-      $(".works li").removeClass("active");
-      $(this).addClass("active");   
+ $("#works li").click(function(){
+      $("#works li").removeClass("actives");
+      $(this).addClass("actives");   
    });
 
  var containerEl = document.querySelector('.mixit');

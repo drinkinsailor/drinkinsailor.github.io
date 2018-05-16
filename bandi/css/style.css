@@ -240,7 +240,7 @@ body p {
       font-weight: 600;
       margin: 35px 15px;
       cursor: pointer; }
-    #works ul li.active {
+    #works ul li.actives {
       color: #fff;
       border: 1px solid #0eb493;
       background-color: #0eb493;
@@ -514,7 +514,7 @@ body p {
       display: inline-block;
       text-align: right;
       margin-top: 20px;
-      margin-bottom: 50px; }
+      margin-bottom: 40px; }
   #contacts .contact-links {
     display: flex;
     flex-direction: column; }
@@ -534,8 +534,8 @@ body p {
     background-color: #062033;
     margin-top: -3px; }
   .footer .foot {
-    padding-top: 70px;
-    padding-bottom: 70px; }
+    padding-top: 50px;
+    padding-bottom: 50px; }
   .footer .footer-column .logo {
     font-family: 'Pacifico', sans-serif;
     text-decoration: none;

@@ -313,7 +313,7 @@ body {
       margin: 35px 15px;
       cursor: pointer;
      }
-    li.active {
+    li.actives {
       color: #fff;
       border: 1px solid #0eb493;
       background-color: #0eb493;
@@ -660,7 +660,7 @@ body {
         display: inline-block;
         text-align: right;
         margin-top: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
       }
     }
   }
@@ -688,8 +688,8 @@ body {
     margin-top: -3px;
   }
   .foot {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .footer-column {
     .logo {
