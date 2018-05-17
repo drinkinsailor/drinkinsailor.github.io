@@ -23,7 +23,14 @@
    #works .mixit .photo .picture .picture_cont {
     width: 280px;
   }
- 
+  #works .mixit .photo .first {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #team .team-slider .team-slide .team-photo {
+    display: flex;
+    justify-content: center;
+  }
  }
 
  @media screen and (max-width: 860px) {
@@ -126,10 +133,11 @@
   #works .mixit .photo .picture .picture_cont {
     width: 280px;
   }
-  #works .mixit .photo .picture{
+  #works .mixit .photo .picture {
     display: flex;
     justify-content: center;
   }
+
   .facts .facts-row .facts-icons p{
     margin-bottom: 20px;
   }
