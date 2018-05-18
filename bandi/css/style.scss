@@ -234,6 +234,7 @@ body {
     margin-bottom: 80px;
     .slide {
      display: flex;
+     outline: none;
      .slide-icon {
       color: #0eb493;
       border: 1px solid #0eb493; 
@@ -419,6 +420,7 @@ body {
     padding-bottom: 30px;
     margin-bottom: 80px;
     .team-slide {
+      outline: none;
       img {
         height: 250px;
       }

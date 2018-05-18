@@ -176,7 +176,8 @@ body p {
     padding-bottom: 50px;
     margin-bottom: 80px; }
     #features .slider .slide {
-      display: flex; }
+      display: flex;
+      outline: none; }
       #features .slider .slide .slide-icon {
         color: #0eb493;
         border: 1px solid #0eb493;
@@ -322,58 +323,60 @@ body p {
     padding-top: 50px;
     padding-bottom: 30px;
     margin-bottom: 80px; }
-    #team .team-slider .team-slide img {
-      height: 250px; }
-    #team .team-slider .team-slide h2 {
-      font-weight: 700;
-      font-size: 14px;
-      color: #062033;
-      padding-top: 20px;
-      padding-bottom: 7px;
-      text-align: center; }
-    #team .team-slider .team-slide p {
-      font-size: 11px;
-      line-height: 1.3;
-      color: #979ca1;
-      text-align: center; }
-    #team .team-slider .team-slide .team-photo {
-      position: relative; }
-      #team .team-slider .team-slide .team-photo .team_cont {
-        position: absolute;
-        top: 0;
-        width: 225px;
-        height: 100%;
-        background-color: rgba(34, 183, 152, 0.9);
-        text-align: center;
-        opacity: 0;
-        transition: all .5s; }
-        #team .team-slider .team-slide .team-photo .team_cont h2 {
-          font-size: 13px;
-          color: #fff;
-          font-weight: 700;
+    #team .team-slider .team-slide {
+      outline: none; }
+      #team .team-slider .team-slide img {
+        height: 250px; }
+      #team .team-slider .team-slide h2 {
+        font-weight: 700;
+        font-size: 14px;
+        color: #062033;
+        padding-top: 20px;
+        padding-bottom: 7px;
+        text-align: center; }
+      #team .team-slider .team-slide p {
+        font-size: 11px;
+        line-height: 1.3;
+        color: #979ca1;
+        text-align: center; }
+      #team .team-slider .team-slide .team-photo {
+        position: relative; }
+        #team .team-slider .team-slide .team-photo .team_cont {
+          position: absolute;
+          top: 0;
+          width: 225px;
+          height: 100%;
+          background-color: rgba(34, 183, 152, 0.9);
           text-align: center;
-          padding: 20px 30px 5px 30px;
-          line-height: 1.4; }
-        #team .team-slider .team-slide .team-photo .team_cont p {
-          font-size: 13px;
-          color: #fff;
-          padding: 0px 30px;
-          font-weight: 400;
-          line-height: 1.6;
-          margin-bottom: 30px; }
-        #team .team-slider .team-slide .team-photo .team_cont ul li {
-          display: inline-block; }
-        #team .team-slider .team-slide .team-photo .team_cont ul a {
-          text-decoration: none;
-          color: #fff;
-          font-size: 16px;
-          background-color: #11806a; }
-        #team .team-slider .team-slide .team-photo .team_cont ul .tw {
-          padding: 5px 8px; }
-        #team .team-slider .team-slide .team-photo .team_cont ul .fb {
-          padding: 5px 12px; }
-        #team .team-slider .team-slide .team-photo .team_cont ul .gplus {
-          padding: 5px 6px; }
+          opacity: 0;
+          transition: all .5s; }
+          #team .team-slider .team-slide .team-photo .team_cont h2 {
+            font-size: 13px;
+            color: #fff;
+            font-weight: 700;
+            text-align: center;
+            padding: 20px 30px 5px 30px;
+            line-height: 1.4; }
+          #team .team-slider .team-slide .team-photo .team_cont p {
+            font-size: 13px;
+            color: #fff;
+            padding: 0px 30px;
+            font-weight: 400;
+            line-height: 1.6;
+            margin-bottom: 30px; }
+          #team .team-slider .team-slide .team-photo .team_cont ul li {
+            display: inline-block; }
+          #team .team-slider .team-slide .team-photo .team_cont ul a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            background-color: #11806a; }
+          #team .team-slider .team-slide .team-photo .team_cont ul .tw {
+            padding: 5px 8px; }
+          #team .team-slider .team-slide .team-photo .team_cont ul .fb {
+            padding: 5px 12px; }
+          #team .team-slider .team-slide .team-photo .team_cont ul .gplus {
+            padding: 5px 6px; }
     #team .team-slider .team-slide:hover .team_cont {
       opacity: 1; }
     #team .team-slider .team-slide:hover h2 {
