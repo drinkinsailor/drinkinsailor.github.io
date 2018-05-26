@@ -221,7 +221,10 @@
 	.prices .container .row .price_column .price_text button{
 		background-color: #26e6e6;
 	}
-	.prices .container .row .price_column .price_text .price, h3 {
+	.prices .container .row .price_column .price_text .price {
+		color: #fff;
+	}
+	.prices .container .row .price_column .price_text h3 {
 		color: #fff;
 	}
 	.footer .footer_wrap .footer_title h1 {
