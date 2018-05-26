@@ -1,0 +1,451 @@
+@media screen and (max-width: 1200px) {
+	.header .container .row .header_text h1{
+		 font-size: 48px;
+	}
+	body .second_items {
+		margin-top: 20px;
+	}
+	.second_items .container .row .items {
+		padding: 0 10px;
+	}
+	.phone .container .phone_row .row .phone_column {
+		margin: 60px 55px 120px 40px;
+	}
+	.phone .phone_row .phone_image .phone_img{
+		width: 654px;
+    	margin-top: 74px;
+    	margin-left: 28px;
+	}
+	.build_columns .container .row .build_column {
+		padding: 70px 15px 0;
+	}
+	.container .join_it .join_text h1 {
+		font-size: 60px;
+	}
+	.prices .container .row .price_column {
+		padding: 0px 15px;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+	.header .header_bar .head_logo {
+		display: none;
+	}
+	.phone .phone_row .phone_image {
+		display: none;
+	}
+	
+	.build_columns .ipad_row .ipad_column {
+		display: none;
+	}
+	.phone .container .phone_row {
+		display: flex;
+		justify-content: center;
+	}
+	.phone .container .phone_row .row .phone_column {
+		margin: 70px 20px;
+		padding: 30px 0px 0;
+	}
+	.phone .container .phone_row .row .phone_column .last-item{
+		padding-bottom: 20px;
+	}
+	.build_columns .container .ipad_row .ipad_text {
+		display: flex;
+		flex-direction: column;
+		padding: 50px 85px 0 ;
+	}
+	.build_columns .container .ipad_row .ipad_text h1{
+		font-size: 41px;
+		margin-bottom: 40px;
+	}
+	.build_columns .container .ipad_row .ipad_text p{
+		padding-right: 0px;
+	}
+	.build_columns .container .ipad_row .ipad_text button{
+		width: 180px;
+		align-self: center;
+		margin-bottom: 50px;
+	}
+	body .features {
+		padding-top: 50px;
+	}
+	.features .container .features_title .features_text h2 {
+		margin-bottom: 25px;
+	}
+	.features .container .icons_row .features_icon {
+		padding: 0 12px;
+	}
+	.features .container .row .slid .slider .slide{
+		width: 500px;
+	}
+	.features .container .row .slid .slider .slide p{
+		font-size: 22px;
+	}
+	.features .container .row .slid .slider .slide .author{
+		font-size: 12px;
+	}
+	.features .container .row .slid .slider .slide .scott{
+		padding: 30px 30px;
+	}
+	.container .join_it .join_text h1 {
+		font-size: 49px;
+	}
+	.prices .container .row .price_column .price {
+		font-size: 50px;
+	}
+	.prices .container .row .price_column p {
+		padding: 0 10px;
+	}
+}
+
+
+
+@media screen and (max-width: 860px) {
+	.header .header_bar .menu .menu-toggle{
+		margin-bottom: 110px;
+	}
+	.header .header_bar .active .menu-toggle{
+		order: -1;
+		align-self: flex-end;
+	}
+	.header .header_bar .row .active ul{
+		flex-direction: column;
+		align-items: center;
+		margin-top: 0;
+	}
+	.header .header_bar .row .active ul li{
+		margin-right: 0;
+		padding-bottom: 14px;
+	}
+	.header .header_bar .row .active ul li:last-child {
+		padding-bottom: 5px;
+	}
+	.header .header_bar .row .active ul li a{
+		color: #2f2f30;
+	}
+	.header .header_bar .row .active ul li a:hover{
+		color: #FF6347;
+	}
+	.header .header_bar .active button{
+    	align-self: center;
+    	margin-top: 15px;
+	}
+	.header .header_bar .active {
+		flex-direction: column;
+	}
+	.header .header_bar .row .active .menu_list .menu_drop li a{
+		 padding: 2px 10px 2px 0;
+		 color: #2f2f30;
+	}
+	.header .header_bar .menu .menu_list1 .menu_drop1 {
+		margin-left: 3px;
+	}
+	.header .header_bar .menu .menu_list2 .menu_drop2 {
+		margin-left: 13px;
+	}
+	.header .container .row .header_text h1{
+		font-size: 35px;
+		 text-align: center;
+	}
+	.header .container .row .header_text h3 {
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.second_items .items_row {
+		padding: 0px 55px;
+	}
+	body .second_items {
+		margin-top: 0;
+	}
+	.second_items .items_row .items {
+		margin-bottom: 50px;
+	}
+	.phone .container .phone_row .row .phone_column {
+		margin: 70px 20px;
+		padding: 30px 0px 0;
+	}
+	.phone .container .phone_row .row .phone_column .last-item{
+		padding-bottom: 20px;
+	}
+	body .build .build_it {
+		margin-top: 30px;
+	}
+	.build .build_it .build_text h1 {
+		font-size: 54px;
+	}
+	.build .build_it .build_text p {
+		font-size: 13px;
+		margin-bottom: 30px;
+	}
+	.build_columns .container .row .build_column {
+		padding: 10px 15px 0;
+	}
+	.build_columns .container .ipad_row .ipad_text h1{
+		font-size: 41px;
+		text-align: center;
+	}
+	.build_columns .container .ipad_row .ipad_text p{
+		text-align: center;
+	}
+	.photos .container .row .pictures {
+		display: flex;
+		justify-content: center;
+	}
+	.photos .pictures h2 {
+		display: none;
+	}
+	.photos .pictures .picture2 {
+		margin-top: 40px;
+	}
+	.container .join_it .join_text h1 {
+		font-size: 36px;
+	}
+	.prices .container .row .price_column .price {
+		font-size: 48px;
+	}
+	.prices .container .row .price_column p {
+		padding: 0 15px;
+	}
+	.prices .container .row .price_column  {
+		margin-bottom: 20px;
+	}
+	.prices .container .row .price_column .price_text {
+		background-color: #000;
+	}
+	.prices .container .row .price_column .price_text button{
+		background-color: #26e6e6;
+	}
+	.prices .container .row .price_column .price_text .price, h3 {
+		color: #fff;
+	}
+	.footer .footer_wrap .footer_title h1 {
+		display: none;
+	}
+	.footer .footer_wrap .footer-text .footer_columns ul li{
+		font-size: 10px;
+	}
+	.footer .footer_wrap .footer-text .footer_contacts {
+		flex-direction: row;
+		padding-right: 0px;
+		justify-content: space-between;
+		align-items: center;
+	} 
+	.footer .footer_wrap .footer-text .footer_contacts .madeby {
+		margin-bottom: 0;
+	} 
+	.footer .footer_wrap .footer-text .footer_contacts .website {
+		margin-top: 0;
+	} 
+	.footer .footer_wrap .footer-text .footer_contacts .footer_links {
+		margin: 0;
+	} 
+	.footer .footer_wrap .footer-text .footer_contacts .footer_links li {
+		margin-left: 15px;
+	} 
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.phone .container .phone_row .phone_text_row .phone_column .phone_item{
+		display: none;
+	}
+	.phone .container .phone_row .phone_text_row .phone_column{
+		background-color: #f5f6f8;
+	}
+	.phone .container .phone_row .phone_text_row {
+		padding: 0px;
+	}
+	.phone .container .phone_row .phone_text_row .phone_column .media-body{
+		padding: 5px 40px 0;
+	}
+	.phone .container .phone_row .phone_text_row .phone_column{
+		margin: 0;
+	}
+	.phone .container .phone_row {
+		padding:  0px;
+	}	
+	.build .build_it .build_text h1 {
+		font-size: 46px;
+	}
+	.build .build_it .build_text p {
+		font-size: 13px;
+	}
+	.build_columns .container .ipad_row .ipad_text {
+		padding: 50px 50px 0 ;
+	}
+	.build_columns .container .ipad_row .ipad_text h1{
+		font-size: 31px;
+		text-align: center;
+	}
+	.build_columns .container .ipad_row .ipad_text p{
+		text-align: center;
+	}
+	.features .container .features_title .features_text p {
+		padding: 0 10px;
+	}
+	.features .container .row .slid .slider .slide{
+		width: 400px;
+	}
+	.features .container .row .slid .slider .slide .scott{
+		padding: 30px 10px;
+	}
+	.features .container .row .slid .slider .slide p{
+		font-size: 18px;
+	}
+	.footer .footer_wrap .footer-text .logo {
+		display: none;
+	} 
+	.footer .footer_wrap .footer-text .footer_contacts .madeby {
+		display: none;
+	} 
+	
+}
+
+
+@media screen and (max-width: 540px) {
+	.header .header_bar .active .menu-toggle{
+		order: -1;
+		align-self: flex-end;
+	}
+	.header .header_bar .row .active ul{
+		align-items: center;
+	}	
+	.header .header_bar .row .active ul li{
+		padding-bottom: 14px;
+	}
+
+	.header .header_bar .row .active ul li:last-child {
+		padding-bottom: 5px;
+	}
+	.header .header_bar .active button{
+    	align-self: center;
+    	margin-top: 20px;
+	}
+	.header .header_bar .menu .menu_list2 .menu_drop2 {
+		margin-left: 13px;
+	}
+	.header .container .row .header_text {
+		margin-top: 50px;
+	}
+	.header .container .row .header_text h1{
+		 font-size: 32px;
+	}
+	.second_items .items_row {
+		padding: 0px 5px;
+	}
+	.photos .container .row .pictures .picture2 .img2 {
+		height: 330px;
+	}
+	.photos .container .row .pictures .picture3 .img3 {
+		height: 120px;
+	}
+	.container .join_it .join_text h1 {
+		font-size: 30px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 440px) {
+	.footer .footer_wrap .footer-text .footer_contacts {
+		flex-direction: column;
+		padding-right: 0px;
+	} 
+	.footer .footer_wrap .footer-text .footer_contacts .website {
+		margin-top: 10px;
+	} 
+	.footer .footer_wrap .footer-text .footer_contacts .footer_links {
+		margin-top: 10px;
+	} 
+}
+
+
+
+@media screen and (max-width: 320px) {
+	body .header {
+		background-image: url("../img/bg_header_min.jpg");
+	}
+	body .footer {
+		background-image: url("../img/bg_footer_min.png");
+	}
+	.phone .phone_text_row .phone_column{
+		background-color: #f5f6f8;
+	}
+	.phone .container .phone_row .row .phone_column {
+		margin: 0px;
+		padding: 30px 0px 0;
+
+	}
+	.phone .container .phone_row .phone_text_row .phone_column .media-body{
+		padding: 5px 25px 0;
+	}
+	.phone .container .phone_row .phone_text_row .phone_column .media .media-body h5, p{
+		text-align: center;
+	}
+	.phone .container .phone_row {
+		padding: 0px;
+	}	
+	.build .build_it .build_text h1 {
+		font-size: 32px;
+	}
+	.build .build_it .build_text p {
+		margin-bottom: 50px
+	}
+	body .build .build_it {
+		margin-top: 50px;
+	}
+	.build_columns .container .ipad_row .ipad_text {
+		padding: 50px 10px 0 ;
+	}
+	.build_columns .container .ipad_row .ipad_text h1 {
+		font-size: 20px;
+	}
+	.build_columns .container .ipad_row .ipad_text p {
+		font-size: 12px;
+		line-height: 1.7;
+		margin-bottom: 50px;
+	}
+	.build_columns .build_column h2, a {
+		text-align: center;
+	}
+	.features .container .icons_row .features_icon img{
+		display: none;
+	}
+	.features .container .icons_row .features_icon h2{
+		text-align: center;
+	}
+	.features .container .row .slid .slider .slide{
+		width: 300px;
+	}
+	.features .container .row .slid .slider .slide .scott{
+		padding: 30px 5px;
+	}
+	.features .container .row .slid .slider .slide p{
+		font-size: 15px;
+	}
+	.features .container .row .slid .slider .slide .author{
+		font-size: 11px;
+	}
+	.photos .container .row .pictures .picture .img {
+		height: 250px;
+	}
+	.photos .container .row .pictures .picture1 .img1 {
+		height: 295px;
+	}
+	.photos .container .row .pictures .picture3 .img3 {
+		height: 120px;
+	}
+	.footer .footer_wrap .footer-text .footer_columns ul li{
+		font-size: 9px;
+	}
+}
+
+
