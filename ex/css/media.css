@@ -14,32 +14,30 @@
 	
 	.third h1 {
 		font-size: 40px;
-	}
-
-	.fifth .column {
-		 margin-top: 30px;
-		 margin-bottom: 40px;
-	}
-
-	
+	}	
 }
 
 @media(max-width: 768px) {
+	.second .container .rr {
+		padding-top: 40px;
+	}
 	.second .second_details {
          margin-top: 40px;
      }
-     .second .second_details .det_wrap {
+    .second .second_details .det_wrap {
             margin-top: 30px;
         }
 
-      .second .second_details .det_wrap  .det {
+    .second .second_details .det_wrap  .det {
       	margin-top: 20px;
       }	
 
-      .second .second_details .det_wrap .det .caption {
+    .second .second_details .det_wrap .det .caption {
       	margin-bottom: 5px;
       }
-
+	.fourth .container h2 {
+		padding-top: 50px;
+	}
 	.fourth .det_wrap4 {
 		padding-bottom: 50px;
 	}
@@ -49,14 +47,16 @@
 	.fourth .det_wrap4 .det4 .caption{
 		margin-bottom: 10px;
 	}
-
 	.fourth .det_wrap4 .det4 .txt{
-		padding-bottom: 35px;
+		padding-bottom: 10px;
 	}
-
 	.fifth .legacy_wrap {
       background-color: #fff;
       box-shadow: 0 0 62px rgba(0, 0, 0, 0.05);
+	}
+	.fifth .column {
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 
 	footer .foot {

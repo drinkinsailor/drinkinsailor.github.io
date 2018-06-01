@@ -182,18 +182,28 @@ body p {
       background-color: #82ca9c;
       border-style: none;
       border-radius: 2px;
-      padding: 15px 15px;
+      padding: 13px 13px;
       font-weight: 600;
+      border: 2px solid #82ca9c;
       width: 130px;
-      margin-left: 30px; }
+      margin-left: 30px;
+      outline: none;
+      cursor: pointer; }
+    .fifth .column button:hover {
+      background-color: #fff;
+      color: #82ca9c;
+      border: 2px solid #82ca9c; }
     .fifth .column ul {
       padding: 15px 30px; }
     .fifth .column li {
       display: inline;
-      color: #c5c5c5;
       font-size: 21px;
       padding-right: 8px;
       padding-bottom: 30px; }
+    .fifth .column a {
+      color: #c5c5c5; }
+    .fifth .column a:hover {
+      color: #82ca9c; }
     .fifth .column .legacy {
       width: 80px;
       margin: 35px 0 0 30px;
