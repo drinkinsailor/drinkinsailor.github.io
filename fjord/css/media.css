@@ -8,7 +8,7 @@
 	.second_items .container .row .items {
 		padding: 0 10px;
 	}
-	.phone .container .phone_row .row .phone_column {
+	.phone .container .phone_row .phone_text_row .phone_column{
 		margin: 60px 55px 120px 40px;
 	}
 	.phone .phone_row .phone_image .phone_img{
@@ -125,6 +125,9 @@
 		color: #2f2f30;
 	}
 	.header .header_bar .row .active ul li a:hover{
+		color: #FF6347;
+	}
+	.header .header_bar .row .active .menu_list .menu_drop li a:hover{
 		color: #FF6347;
 	}
 	.header .header_bar .active button{
@@ -274,12 +277,17 @@
 	.phone .container .phone_row {
 		padding:  0px;
 	}	
+	.phone .container .phone_row .phone_text_row .phone_column .media .media-body h5, p{
+		text-align: center;
+	}
+
 	.build .build_it .build_text h1 {
 		font-size: 46px;
 	}
 	.build .build_it .build_text p {
 		font-size: 13px;
 	}
+
 	.build_columns .container .ipad_row .ipad_text {
 		padding: 50px 50px 0 ;
 	}
@@ -288,6 +296,9 @@
 		text-align: center;
 	}
 	.build_columns .container .ipad_row .ipad_text p{
+		text-align: center;
+	}
+	.build_columns .build_column h2, a {
 		text-align: center;
 	}
 	.features .container .features_title .features_text p {
@@ -301,6 +312,15 @@
 	}
 	.features .container .row .slid .slider .slide p{
 		font-size: 18px;
+	}
+	.features .container .icons_row .features_icon h2{
+		text-align: center;
+	}
+	.features .container .icons_row .features_icon img{
+		display: none;
+	}
+	.photos .container .row .pictures .picture1 {
+		display: none;
 	}
 	.footer .footer_wrap .footer-text .logo {
 		display: none;
@@ -368,16 +388,9 @@
 	.footer .footer_wrap .footer-text .footer_contacts .footer_links {
 		margin-top: 10px;
 	} 
-}
 
-
-
-@media screen and (max-width: 320px) {
 	body .header {
 		background-image: url("../img/bg_header_min.jpg");
-	}
-	body .footer {
-		background-image: url("../img/bg_footer_min.png");
 	}
 	.phone .phone_text_row .phone_column{
 		background-color: #f5f6f8;
@@ -389,9 +402,6 @@
 	}
 	.phone .container .phone_row .phone_text_row .phone_column .media-body{
 		padding: 5px 25px 0;
-	}
-	.phone .container .phone_row .phone_text_row .phone_column .media .media-body h5, p{
-		text-align: center;
 	}
 	.phone .container .phone_row {
 		padding: 0px;
@@ -416,14 +426,8 @@
 		line-height: 1.7;
 		margin-bottom: 50px;
 	}
-	.build_columns .build_column h2, a {
-		text-align: center;
-	}
 	.features .container .icons_row .features_icon img{
 		display: none;
-	}
-	.features .container .icons_row .features_icon h2{
-		text-align: center;
 	}
 	.features .container .row .slid .slider .slide{
 		width: 300px;
@@ -449,6 +453,12 @@
 	.footer .footer_wrap .footer-text .footer_columns ul li{
 		font-size: 9px;
 	}
+}
+
+
+
+@media screen and (max-width: 320px) {
+	
 }
 
 

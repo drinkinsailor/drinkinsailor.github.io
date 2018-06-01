@@ -1,7 +1,6 @@
 $(function() {
    $('.menu-toggle').click(function(){
      $('.menu').toggleClass('active');
-
    });
     $('.menu_list1').click(function(){
      $('.menu_drop1').toggleClass('drop_active');
@@ -18,7 +17,16 @@ $(function() {
      slidesToScroll: 1,
      centerMode: true,
      arrows: false,
-      variableWidth: true
+     variableWidth: true,
+     responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          autoplay: false,
+          speed: 300,
+        }
+      }
+     ]
  });
 
     if (window.matchMedia("(max-width: 860px)").matches) {
