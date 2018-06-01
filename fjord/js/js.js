@@ -12,21 +12,12 @@ $(function() {
     $('.slider').slick({
      autoplay: true,
      autoplaySpeed: 3000,
-     speed: 2000,
+     speed: 300,
      slidesToShow: 1,
      slidesToScroll: 1,
      centerMode: true,
      arrows: false,
      variableWidth: true,
-     responsive: [
-      {
-        breakpoint: 576,
-        settings: {
-          autoplay: false,
-          speed: 300,
-        }
-      }
-     ]
  });
 
     if (window.matchMedia("(max-width: 860px)").matches) {
