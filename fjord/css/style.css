@@ -144,6 +144,8 @@ body {
       text-transform: uppercase;
       font-size: 11px;
       font-weight: 600; }
+    .second_items .items a:hover {
+      color: #FF6347; }
     .second_items .items .new {
       display: inline-block;
       font-size: 8px;
@@ -239,6 +241,8 @@ body {
       text-transform: uppercase;
       font-size: 11px;
       font-weight: 600; }
+    .build_columns .build_column a:hover {
+      color: #FF6347; }
   .build_columns .ipad_row {
     margin-top: 70px;
     background-color: #000; }
@@ -267,6 +271,8 @@ body {
         margin-bottom: 80px;
         outline: none;
         cursor: pointer; }
+      .build_columns .ipad_row .ipad_text button:hover {
+        color: #ccfffd; }
     .build_columns .ipad_row .ipad_column {
       position: absolute;
       right: 0;
@@ -442,6 +448,9 @@ body {
       outline: none;
       margin-bottom: 50px;
       cursor: pointer; }
+    .prices .price_column .price_text button:hover {
+      color: #ccfffd;
+      transition: .2s; }
     .prices .price_column .price_text .standart {
       margin-bottom: 41px; }
     .prices .price_column .price_text .pro {

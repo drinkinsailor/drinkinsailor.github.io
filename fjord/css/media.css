@@ -322,6 +322,9 @@
 	.photos .container .row .pictures .picture1 {
 		display: none;
 	}
+	body .photos {
+		padding-top: 30px;
+	}
 	.footer .footer_wrap .footer-text .logo {
 		display: none;
 	} 
