@@ -49,7 +49,7 @@ body {
             padding: 28px 20px 15px 0px;
          }
          p {
-            color: #626262;
+            color: #929191;
             font-weight: 300;
             padding: 30px 0 15px 0px;
          }  
@@ -72,7 +72,7 @@ body {
                font-size: 13px;
               }
             a:hover {
-              border-top: 2px solid #32b0ee;  
+              border-top: 2px solid #929191;  
               padding-top: 28px;
             }
            }        
@@ -86,7 +86,7 @@ body {
     .logo-sm {
       display: none;
     }
-    @media screen and (max-width: 860px) {
+    @media screen and (max-width: 768px) {
     .menu {
     position:relative;
     }
@@ -329,6 +329,7 @@ body {
       position: relative;
       padding: 0;
       margin-bottom: -3px;
+      cursor: pointer;
       img {
         width: 100%;
         height: 200px;
@@ -440,7 +441,8 @@ body {
       }
       .team-photo {
         position: relative;
-    
+        display: flex;
+        justify-content: center;
         .team_cont {
           position: absolute;
           top: 0;
@@ -678,17 +680,14 @@ body {
           color: #cdd2d6;
           font-size: 18px;
         }
+      a:hover {
+        color: #18b798;
+      } 
   }
 }
 
 .footer {
   background-color: #1ea78d;
-  .line {
-    height: 5px;
-    width: 100%;
-    background-color: #062033;
-    margin-top: -3px;
-  }
   .foot {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -751,7 +750,7 @@ body {
       padding-bottom: 40px;
     }
     .heart {
-      color: #157562;
+      color: #062033;
       padding: 0 5px; 
       font-size: 13px;
     }

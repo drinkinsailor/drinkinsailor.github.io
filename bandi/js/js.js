@@ -28,6 +28,7 @@ $(function(){
          slidesToShow: 1,
          slidesToScroll: 1,
          dots: false,
+         speed: 300,
        }
       }
    ]
@@ -35,7 +36,7 @@ $(function(){
  });
 
   $('.team-slider').slick({
-   autoplay: true,
+   autoplay: false,
    autoplaySpeed: 3000,
    speed: 2000,
    slidesToShow: 4,
@@ -63,6 +64,7 @@ $(function(){
       slidesToShow: 1,
       slidesToScroll: 1,
       dots: false,
+      speed: 300,
      }
    }
    ]
