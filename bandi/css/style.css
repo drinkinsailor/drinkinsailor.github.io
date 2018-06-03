@@ -60,7 +60,7 @@ body p {
           color: #fff;
           font-size: 13px; }
         .header .header_bar .menu ul a:hover {
-          border-top: 2px solid #929191;
+          border-top: 2px solid #6f74fd;
           padding-top: 28px; }
     .header .header_bar .toggle-nav {
       display: none; }
@@ -532,6 +532,8 @@ body p {
       font-size: 18px; }
     #contacts .contact-links a:hover {
       color: #18b798; }
+  #contacts .map {
+    margin-bottom: -3px; }
 
 .footer {
   background-color: #1ea78d; }
